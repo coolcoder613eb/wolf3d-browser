@@ -18,3 +18,16 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::96d:3ff:c974:13af. Set the 'ServerName' directive globally to suppress this message
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::96d:3ff:c974:13af. Set the 'ServerName' directive globally to suppress this message
 [Fri Oct 28 10:28:06.486624 2022] [mpm_winnt:notice] [pid 17688:tid 568] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::96d:3ff:c974:13af. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 28 16:36:47.074667 2022] [core:warn] [pid 14472:tid 576] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 28 16:36:48.422475 2022] [mpm_winnt:notice] [pid 14472:tid 576] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Fri Oct 28 16:36:48.422475 2022] [mpm_winnt:notice] [pid 14472:tid 576] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Oct 28 16:36:48.422475 2022] [core:notice] [pid 14472:tid 576] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 28 16:36:48.490303 2022] [mpm_winnt:notice] [pid 14472:tid 576] AH00418: Parent: Created child process 6360
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::96d:3ff:c974:13af. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::96d:3ff:c974:13af. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 28 16:37:00.859530 2022] [mpm_winnt:notice] [pid 6360:tid 576] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 28 17:57:46.974221 2022] [mpm_winnt:notice] [pid 14472:tid 576] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 28 17:57:48.991260 2022] [mpm_winnt:notice] [pid 6360:tid 576] AH00364: Child: All worker threads have exited.
+[Fri Oct 28 17:57:49.037221 2022] [mpm_winnt:notice] [pid 14472:tid 576] AH00430: Parent: Child process 6360 exited successfully.
