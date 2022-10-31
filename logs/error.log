@@ -18,3 +18,21 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::96d:3ff:c974:13af. Set the 'ServerName' directive globally to suppress this message
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::96d:3ff:c974:13af. Set the 'ServerName' directive globally to suppress this message
 [Fri Oct 28 10:28:06.486624 2022] [mpm_winnt:notice] [pid 17688:tid 568] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::816f:a3f9:69a:d012. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 28 13:06:04.804134 2022] [core:warn] [pid 9984:tid 404] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 28 13:06:04.900133 2022] [mpm_winnt:notice] [pid 9984:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Fri Oct 28 13:06:04.901134 2022] [mpm_winnt:notice] [pid 9984:tid 404] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Oct 28 13:06:04.901134 2022] [core:notice] [pid 9984:tid 404] AH00094: Command line: 'httpd -d C:/Apache24'
+[Fri Oct 28 13:06:04.914133 2022] [mpm_winnt:notice] [pid 9984:tid 404] AH00418: Parent: Created child process 13104
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::816f:a3f9:69a:d012. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::816f:a3f9:69a:d012. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 28 13:06:08.024210 2022] [mpm_winnt:notice] [pid 13104:tid 408] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::4c54:b522:79f0:57b1. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 31 12:38:33.899988 2022] [core:warn] [pid 20668:tid 432] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 31 12:38:34.727699 2022] [mpm_winnt:notice] [pid 20668:tid 432] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Oct 31 12:38:34.727699 2022] [mpm_winnt:notice] [pid 20668:tid 432] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Mon Oct 31 12:38:34.727699 2022] [core:notice] [pid 20668:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 31 12:38:34.965791 2022] [mpm_winnt:notice] [pid 20668:tid 432] AH00418: Parent: Created child process 11236
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::4c54:b522:79f0:57b1. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::4c54:b522:79f0:57b1. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 31 12:38:41.070704 2022] [mpm_winnt:notice] [pid 11236:tid 436] AH00354: Child: Starting 64 worker threads.
